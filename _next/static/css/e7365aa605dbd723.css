@@ -1,17 +1,15 @@
 html,
 body {
-	padding: 0;
-	margin: 0;
-	background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.a37640d6.jpg);
-	background-repeat: no-repeat;
+	padding: 0%;
+	margin: 0%;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.1c6e3a03.jpg);
+	height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 	font-family: "Comic Sans MS", "Comic Sans", cursive;
 	font-size: 35px;
-	background-size: cover;
-	width: 100%;
-	height: 100%;
-	left: 0px;
-	top: 0px;
-	position: absolute;
+
 }
 
 a {
@@ -41,10 +39,8 @@ a {
 }
 
 .Home_main__nLjiQ {
-  min-height: 100vh;
-  padding: 1rem 0;
-  flex: 1 1;
-  display: flex;
+  margin: 100;
+  display: grid;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -98,8 +94,7 @@ a {
   border-radius: 5px;
   padding: 0.75rem;
   font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
+  font-family: Menlo, Monaco,
 }
 
 .Home_grid__GxQ85 {
@@ -167,7 +162,8 @@ a {
 }
 
 .Home_homepageImg__fcRDd {
-  display: block;
+	margin: 100;
+	display: block;
 	display: flex;
 	background-size: cover;
 	align-items: center;
@@ -585,7 +581,7 @@ a {
 	position: absolute;
 	width: 800px;
 	height: 600px;
-	left: 55px;
+	left: 50px;
 
 }
 
@@ -683,12 +679,19 @@ a {
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
   .Home_grid__GxQ85 {
     width: 100%;
     flex-direction: column;
   }
 }
+
+@media (max-width: 500px) {
+	.Home_grid__GxQ85 {
+	  width: 100%;
+	  flex-direction: column;
+	}
+  }
 
 @media (prefers-color-scheme: dark) {
   .Home_card___LpL1,
