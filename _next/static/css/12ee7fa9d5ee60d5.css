@@ -312,11 +312,11 @@ a {
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/getLoading.392466f9.gif);
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 250px;
+	  width: 100px;
 	  height: 100px;
 	  position: absolute;
-	  left: 300px;
-	  top: 20px;
+	  left: 410px;
+	  top: 150px;
   }
   
   .Home_sendCheck__xMz4p {
@@ -703,16 +703,20 @@ a {
   }
   
   .Home_sendscreenImg__5SKtV {
-	  display: block;
-	  display: flex;
-	  background-image: url(/04-zkapp-browser-ui/_next/static/media/send.d70f07b8.png);
-	  background-repeat: no-repeat;
-	  background-size: cover;
-	  width: 400px;
-	  height: 330px;
-	  position: absolute;
-	  left: 250px;
-	  top: 100px;
+	display: block;
+	display: flex;
+	background-size: cover;
+	align-items: center;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(/04-zkapp-browser-ui/_next/static/media/send.d70f07b8.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	width: 600px;
+	height: 450px;
+	left: 150px;
+	top: 75px;
   }
   
   
