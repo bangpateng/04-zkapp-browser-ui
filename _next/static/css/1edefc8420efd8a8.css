@@ -4,8 +4,8 @@ body {
 	margin: 0;
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.ca0bd893.png);
 
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 20px;
+	font-family: "Comic Sans MS";
+	font-size: 27px;
 	background-size: cover;
 	width: 100%;
 	height: 100%;
@@ -28,12 +28,10 @@ a {
     color-scheme: dark;
   }
   body {
-    color: white;
-    background: black;
   }
 }
 
-@media (max-width: 100%) {
+@media (max-width: 480px) {
 
 }
 
@@ -130,8 +128,7 @@ a {
 	border-radius: 5px;
 	padding: 0.75rem;
 	font-size: 1.1rem;
-	font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-	  Bitstream Vera Sans Mono, Courier New, monospace;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
   
   .Home_grid__GxQ85 {
@@ -840,6 +837,4 @@ a {
 	}
 	.Home_logo__27_tb img {
 	}
-	 
-	
   }
