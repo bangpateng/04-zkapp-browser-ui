@@ -3,7 +3,6 @@ body {
 	padding: 0;
 	margin: 0;
 	background-image: url(/04-zkapp-browser-ui/_next/static/media/bg.ca0bd893.png);
-
 	font-family: "Comic Sans MS";
 	font-size: 27px;
 	background-size: cover;
@@ -46,7 +45,7 @@ a {
   }
   
   .Home_main__nLjiQ {
-	min-height: 100vh;
+	min-height: auto;
 	padding: 1rem 0;
 	flex: 1 1;
 	display: flex;
@@ -68,8 +67,8 @@ a {
 	  background-image: url("../images/footer.png");
 	  background-repeat: no-repeat;
 	  background-size: cover;
-	  width: 520px;
-	  height: 145px;
+	  width: 0;
+	  height: 0;
 	  position: absolute;
 	  left: 200px;
 	  top: 560px;
@@ -208,8 +207,8 @@ a {
 	  background-size: cover;
 	  align-items: center;
 	  justify-content: center;
-	  margin-left: auto;
-	  margin-right: auto;
+	  margin-left: 0;
+	  margin-right: 0;
 	  background-image: url(/04-zkapp-browser-ui/_next/static/media/homepageImg.d70f07b8.png);
 	  background-repeat: no-repeat;
 	  position: absolute;
